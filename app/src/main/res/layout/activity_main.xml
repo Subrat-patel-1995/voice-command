@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search.."
+        android:paddingLeft="20dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionSend"
+        android:ems="10" />
+
+        <ImageView
+            android:id="@+id/speakButton"
+            android:layout_marginRight="10dp"
+            android:onClick="speakButtonClicked"
+            android:layout_gravity="right"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_keyboard_voice_24"
+            />
+    </FrameLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        />
+
+</LinearLayout>
